@@ -1,0 +1,4 @@
+I trained my voice at ElevenLabs, using the sample text here:
+
+https://www.researchgate.net/figure/The-sentences-used-to-generate-test-samples-for-the-voice-cloning-models-The-white-space_fig4_323257158
+
