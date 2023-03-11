@@ -2,21 +2,41 @@
 <html>
 
 <head>
-  <meta charset="UTF-8">
-  <title>Brent's Synthesized Voice</title>
-  <link rel="stylesheet" href="pico.min.css">
+	<meta charset="UTF-8">
+	<title>Brent's Synthesized Voice</title>
+
+	<style>
+		body {
+			margin: 0.5in;
+			text-align: center;
+			font-family: helvetica;
+		}
+		p {
+			text-align: left;
+		}
+		@media (max-width: 1000px) {
+			body {
+				font-size: 250%;
+			}
+			audio {
+				width: 100%;
+			}
+		}
+	</style>
+
 </head>
 
 <body>
 
 	<h3>
-	Brent's voice as synthesized by ElevenLabs.
-  </h3>
+		Brent's voice as synthesized by ElevenLabs.
+	</h3>
+
+	<hr/>
 
   <p>
-	Use the playback control below to hear Brent's synthesized voice reading the Gettysburg Address. This synthesized voice was trained with one recording of about 90 seconds.
+	Use the playback control below to hear Brent's synthesized voice reading the Gettysburg Address.<br/><br/>This synthesized voice was trained with one recording of about 90 seconds.
   <p/>
-
   <audio id="audio" controls="controls" src="brent march 10 - gettysburg address.mp3"></audio>
 
 </body>
